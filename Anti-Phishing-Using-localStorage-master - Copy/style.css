@@ -1,0 +1,36 @@
+
+body {
+	width: 200px;
+    height: 100px;
+	color: #00b300;
+}
+
+p {
+	font-size: 18px;
+}
+
+#mar {
+	position: absolute;
+	top: 90px;
+	right: 10px;
+	left: 10px;
+	font-size: 13px;
+}
+
+#rep1 {
+	position: absolute;
+	top: 60px;
+	left: 10px;
+	color: green;
+	border: 1px solid #00b300;
+	border-radius: 20px;
+}
+#check1 {
+	position: absolute;
+	top: 60px;
+	right: 10px;
+	color: green;
+	border: 1px solid #00b300;
+	border-radius: 20px;
+}
+	

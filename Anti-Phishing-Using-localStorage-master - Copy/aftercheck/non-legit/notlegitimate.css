@@ -1,0 +1,33 @@
+img {
+  position: absolute;
+  left: 450px;
+  top: 0px;
+  width: 300px;
+  height: 200px;
+}
+
+body {
+	background: black;
+    background-repeat: no-repeat;
+    color: red;
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 400px;
+	margin-top: 20px;
+}
+
+p {
+	text-align: center,justify;
+	margin-top: 200px;
+}
+
+button
+ {
+  text-align: justify,center;
+  position: absolute;
+  left: 550px;
+  top: 300px;
+}
+
+
+

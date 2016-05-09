@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="reporting.css">
+<link rel="icon" href="../img/evilphish.png">
+
+<title>
+Reporting URL
+</title>
+
+</head>
+
+<body>
+
+<div class="header">
+	<div id="logo">
+		<img src="../img/logo1.png" />
+	</div>
+</div>
+
+<b><hr id="hr1"></b>
+
+<div id="para">
+	<p>
+	Please feel free to report a definite phishing website. The previous active URL's link has been 
+	automatically inserted in the form. If you want to report some other URL, please change the URL 
+	in the form.
+		<br><br>
+	We define a phishing URL as one that is attempting to impersonate a site operated by an organisation 
+	with which the victim of the phishing attempt has an existing relationship, in order to obtain passwords 
+	or other personal information for use in some type of fraud.
+		<br><br>
+	This does not include sites such as fake banks, fake escrow sites, fake online shops, fake courier companies 
+	and so on, unless those sites are attempting to impersonate a site operated by a specific real organisation. 
+	Even if such sites are attempting to gather personal information or credit card details, 
+	we do not count them as phishing sites unless a specific real organisation is being impersonated.
+		<br><br>
+	</p>
+</div>
+
+<div id="form1">
+<form action="http://localhost/report.php" method="post" name="reporting">
+
+Reporting URL: <input type="text" name="reported_URL" id="url1" required><br><br>
+Reporter's Name: <input type="text" name="reporter_name" id="r_name" placeholder="Enter Name"><br><br>
+Email: <input type="email" name="reporter_email" id="r_email" placeholder="Enter valid e-mail address" required><br><br>
+Reason: <textarea name = "reason1" rows="4" cols="50" maxlength="200" id="r_reason" placeholder="Type your reason for reporting..."></textarea>
+<br><br>
+<input type="submit" value="Submit" id="submit">
+<script src="script2.js"></script>
+
+
+</form>
+</div>
+
+</body>
+
+
+</html>

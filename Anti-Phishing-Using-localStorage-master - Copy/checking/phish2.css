@@ -1,0 +1,32 @@
+body {
+  height: 100%;
+  background-color: black;
+  color:green;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+
+
+img {
+  
+  margin-left: 0px;
+  margin-top:100px;
+  height: 100px;
+  width: 200px;
+}
+
+div{
+
+margin-left:10px;
+margin-top:0px;
+
+}
+
+p {
+	height: 100%;
+  background-color: black;
+  color:green;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+ }

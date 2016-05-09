@@ -1,0 +1,60 @@
+body {
+	background: black;
+  	background-repeat: no-repeat;
+  	color: green;
+  	text-align: justify;
+  	font-family: Georgia;
+  	font-size: 18px;
+}
+
+img {
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 28px;
+	height: 100px;
+	width: 300px;
+}
+
+p {
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 40px;
+	margin-right: 40px;
+	color: green;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: justify;
+}	
+
+#hr1 {
+	position: absolute;
+	display: block;
+	height: 1px;
+	border: 0px;
+	border-top: 1px solid green;
+	padding: 0;
+	margin-top: 140px;
+	width: 1358px;
+}
+
+form {
+	margin-top: 350px;
+	position: absolute;
+	left: 400px;
+}
+	
+
+#url1, #r_name, #r_email, #r_reason {
+	position: absolute;
+	background: #f2f2f2;
+	left: 150px;
+	width: 500px;
+}
+
+#submit {
+	position: absolute;
+	left: 150px;
+	top: 200px;
+}
+
+

@@ -1,0 +1,44 @@
+body {
+    text-align: center,justify;
+    background: black;
+    background-repeat: no-repeat;
+    color: green;
+    top:250px;
+    font-family: Georgia;
+    font-size: 18px;
+    margin-top: 250px;
+    margin-left: 450px;
+}
+
+img {
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 38px;
+  height: 100px;
+  width: 200px;
+}
+
+h1,h2 {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 70px;
+  margin-right: 40px;
+  color: green;
+  font-family: Georgia;
+  font-size: 16px;
+  text-align: justify;
+  left: 400px;
+} 
+
+button
+ {
+  text-align: justify,center;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 70px;
+  margin-right: 40px;
+  left: 550px;
+  top: 300px;
+}
+
+
